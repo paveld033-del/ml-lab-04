@@ -1,0 +1,19 @@
+[project]
+name = "lab04"
+version = "0.1.0"
+description = "Lab 04: Regularization and Gradient Descent (Ridge, Lasso, ElasticNet, SGD, Ames Housing, sklearnex)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "scikit-learn-intelex>=2026.1.0",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.5.0",
+]
